@@ -5,7 +5,7 @@ This project simulates simplified models of galaxy collisions, inspired by the T
 
 ## Theory & Approach
 ### Gravitational N-Body Problem
-The gravitational N-body problem calculates gravitational interactions between multiple stars around galaxy cores. Each particle is treated as a point mass, experiencing forces from all other particles. A more detailed overview of the underlying math behind this code can be found in the .pdf file. 
+The gravitational N-body problem calculates gravitational interactions between multiple stars around galaxy cores. Each particle is treated as a point mass, experiencing forces from all other particles. A more detailed overview of the underlying math behind this code can be found in the galaxy_sim_overview.pdf file. 
 
 ### Numerical Solution
 Using finite difference approximation, the problem is discretized over time to compute particle positions at each time step. Initial conditions are set to provide realistic starting conditions for galaxy and star positions and velocities.
