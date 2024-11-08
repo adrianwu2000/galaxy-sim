@@ -28,13 +28,19 @@ randcirclepts.m: Generates random star positions within a defined range around t
 
 ## Simulations
 ### Single Galaxy Simulation
-The simulation for a single galaxy uses onegalaxysim.m, initializing random star positions around a central core to form a stable orbit. Galaxy motion as a whole is achieved by shifting all particle positions by a constant initial velocity.
+The simulation for a single galaxy uses onegalaxysim.m, initializing random star positions around a central core to form a stable orbit. Galaxy motion as a whole is achieved by shifting all particle positions by a constant initial velocity. By tracing out the path of a single orbit, we confirm the orbit is stable. 
+
+![twobodyOrbit](https://github.com/user-attachments/assets/7f6f2366-9f00-4148-b172-689e7e795b18)
 
 ### Two Galaxy Collision Simulation
-twogalaxysim.m simulates two galaxies in motion toward each other, calculating gravitational interactions and visualizing collisions.
+twogalaxysim.m simulates two galaxies in motion toward each other, calculating gravitational interactions and visualizing collisions. Click on the thumbnail below to see the animation.
+
+[![Simulation](https://img.youtube.com/vi/PISQmm7-lbY/0.jpg)](https://www.youtube.com/watch?v=PISQmm7-lbY)
 
 ### Convergence Testing
 The script t2bodyconverge.m uses multiple levels of time-step resolution to assess solution stability and accuracy. Differences between simulation levels are plotted to ensure convergence.
+
+![convergenceTest2](https://github.com/user-attachments/assets/6359cea3-98e7-4056-ad66-9d7072171877)
 
 ## Results
 Detailed results, including figures from the simulations and convergence testing, showcase the morphological changes during galaxy collisions, offering insight into the dynamics of interacting galaxies.
@@ -44,3 +50,5 @@ The simulation was created using MATLAB, and requires:
 
 MATLAB (R2021a or later)
 Basic linear algebra and plotting toolboxes
+
+
